@@ -1,0 +1,119 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.box1{
+background-color: #48C7B8;
+width: 650px;
+height: 625px;
+}
+.box1 img{
+    width: 75px;
+    height: 55px;
+}
+ h1{
+width: 320px;
+height: 25px;
+margin-top: 99px ;
+margin-left: 200px;
+font-family: serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 19px;
+color: #FFFFFF;
+}
+.box1 p{
+width: 424px;
+height: 40px;
+margin-left: 100px;
+margin-top: 73px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 15px;
+text-align: center;
+color: #FFFFFF;
+}
+.box1 button{
+width: 231.09px;
+height: 43px;
+margin-left: 180px;
+margin-top: 59px;
+background: #48C7B8;
+border: 1px solid #F5F5F5;
+border-radius: 30px;
+}
+.box1 button {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.box1 button a:hover{
+    background-color:#000000;
+}
+.box2{
+    background-color: #FFFFFF;
+    width: calc(100% - 650px);
+    height: 625px;
+}
+.box2 h1{
+width: 367px;
+height: 38px;
+margin-left: 208px;
+margin-top: 73px;
+
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 19px;
+text-align: center;
+color: #48C7B8;
+}
+.form{
+    margin-top: 160px;
+    margin-left: 180px;
+}
+
+.form-group .form-control{
+    margin-top: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    width: 300px;
+    height: 20px;
+    border: none;
+    background-color: rgb(222, 244, 245);
+
+}
+#name-icon{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+#email-icon{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+#psw-icon{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.form-group button{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 200px;
+    height: 50px;
+    border:none;
+    border-radius: 20px;
+    background-color: #48C7B8;
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
